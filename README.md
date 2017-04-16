@@ -26,7 +26,7 @@ https://github.com/insionng/sdc
 [SudoChina](http://sudochina.com/)
 
 
-##轻量级社区版本
+## 轻量级社区版本
 
 [YouGam社区](http://www.yougam.com/)
 
