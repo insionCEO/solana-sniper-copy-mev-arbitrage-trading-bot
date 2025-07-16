@@ -15,8 +15,6 @@ An AI-powered search engine with a generative UI.
 - 👥 [Contributing](#-contributing)
 - 📄 [License](#-license)
 
-📝 Explore AI-generated documentation on [DeepWiki](https://deepwiki.com/miurla/morphic)
-
 ## 🛠 Features
 
 ### Core Features
