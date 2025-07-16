@@ -1,4 +1,0 @@
-goset
-=====
-
-Golang Set implementation
