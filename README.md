@@ -317,7 +317,7 @@ struct PerformanceMetrics {
 ### Professional Support
 For custom implementations, optimization, or advanced features:
 
-- **Telegram**: [@hanshaze007](https://t.me/insionCEO)
+- **Telegram**: [@insionCEO](https://t.me/insionCEO)
 - **Custom Development**: Tailored solutions for your needs
 - **Performance Optimization**: Speed and efficiency improvements
 - **API Integration**: Additional exchange and platform support
