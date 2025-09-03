@@ -1,228 +1,414 @@
-# Morphic
+# 🚀Best Solana Copy Sniper & MEV Trading Bot (Node.js & Rust) — PumpFun, Bonk, Raydium
 
-An AI-powered search engine with a generative UI.
+> **Ultra-fast, customizable Solana copy trading, sniper, and MEV bot with advanced sell logic for maximum profit.**
 
-![capture](/public/screenshot-2025-05-04.png)
+---
 
-## 🗂️ Overview
+### **If you find this project helpful, please star 🌟 the repo!**  
+#### Your feedback and stars motivate further development. Thank you!
+> **Note:** Other folders and features are currently in development and will be deployed ASAP. Stay tuned for updates!
 
-- 🛠 [Features](#-features)
-- 🧱 [Stack](#-stack)
-- 🚀 [Quickstart](#-quickstart)
-- 🌐 [Deploy](#-deploy)
-- 🔎 [Search Engine](#-search-engine)
-- 💙 [Sponsors](#-sponsors)
-- 👥 [Contributing](#-contributing)
-- 📄 [License](#-license)
+[![Solana](https://img.shields.io/badge/Solana-3.5.0-blue.svg)](https://solana.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://rust-lang.org/)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://telegram.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🛠 Features
+---
 
-### Core Features
+## 🌟 Overview
 
-- AI-powered search with GenerativeUI
-- Natural language question understanding
-- Multiple search providers support (Tavily, SearXNG, Exa)
-- Model selection from UI (switch between available AI models)
-  - Reasoning models with visible thought process
+**Ready to level up your Solana trading?**  
+This repo provides a battle-tested, ultra-fast Solana trading bot you can fully customize for your own strategies.  
+Automate your trades, add your own logic, and maximize profits with professional-grade speed and reliability.
 
-### Authentication
+**Need more?**  
+Hire me for custom development:  
+- Integrate advanced features, optimize sell logic, or build a tailored trading solution.
+- Get ultra-fast swap code, 0block confirm, off-chain signing, and expert support.
 
-- User authentication powered by [Supabase Auth](https://supabase.com/docs/guides/auth)
-- Supports Email/Password sign-up and sign-in
-- Supports Social Login with Google
+---
+## Same Block available
+https://solscan.io/tx/3Rp2nV8JPdzxdCsX46Lt2rcUPAqLHubTbCUL4PRzAJknVfqiwQ8dTiYq7FHVSQ9ERMHhwi1pbaGDDVAAQ6uDtZRe  (My Wallet)
 
-### Chat & History
+https://solscan.io/tx/3M4HxfsfnGRK9nPBnh9RBqKZKaytEgjnRBk3ZWxXUTzpfWAz6PVW2Jxk28VGGWJohCb4iNMk1GrZ6dmCsuJ6w93F     (Target Wallet)
 
-- Chat history functionality (Optional)
-- Share search results (Optional)
-- Redis support (Local/Upstash)
 
-### AI Providers
+https://solscan.io/tx/541UheAWxnLhTXR5rLD4rVWqUCuQeCfrLgyFcMqr6ZM2NtJ9CuyhVb9pGXGewNGHAaes2mzL17zPMK3uTZXzRjh4   (My Wallet)
 
-The following AI providers are supported:
+https://solscan.io/tx/3DBcECQCUwFAGEtpBjzh3Lxkm2JvBT2ADcP45ufc6DMYkRq6R3CGNudNFKvEDiLTTs1MivPKgfDPJTGDuJK3bCjE        (Target Wallet)
 
-- OpenAI (Default)
-- Google Generative AI
-- Azure OpenAI
-- Anthropic
-- Ollama
-- Groq
-- DeepSeek
-- Fireworks
-- xAI (Grok)
-- OpenAI Compatible
 
-Models are configured in `public/config/models.json`. Each model requires its corresponding API key to be set in the environment variables. See [Configuration Guide](docs/CONFIGURATION.md) for details.
+https://solscan.io/tx/4EgSxC6Bi6qZkjTdzjprJrjRuKabhB57Hkbysb1jxwZRADy8FgHbvT5vMhXAxKFtmKKnSNK62nqKLKBm56mz53Sh (My Wallet)
 
-### Search Capabilities
+https://solscan.io/tx/veD5eiQX47Rr71dxhXcfMkHcowwb36GtGgTboJmajUhHRuEDqYnKmn2PhVDis2QT57GEc6mqkFSvpqkdUuok5MM           (Target Wallet)
 
-- URL-specific search
-- Video search support (Optional)
-- SearXNG integration with:
-  - Customizable search depth (basic/advanced)
-  - Configurable engines
-  - Adjustable results limit
-  - Safe search options
-  - Custom time range filtering
+<img width="1701" height="366" alt="image" src="https://github.com/user-attachments/assets/835d6d25-3645-46c6-8043-4b126b124475" />
+<img width="1226" height="558" alt="image" src="https://github.com/user-attachments/assets/3cdbe090-bb2c-4ba1-a6ee-ce6d6290627b" />
+https://medium.com/@odinbotio/the-50-trade-challenge-how-odinbot-outpaced-every-competitor-0ca864b50215
+---
 
-### Additional Features
+### 🛠️ Two Powerful Implementations
 
-- Docker deployment ready
-- Browser search engine integration
+#### 📁 Node.js (`copy sniper bot(node) using gRPC/`)
+- Real-time gRPC transaction monitoring
+- Telegram bot integration for remote control & alerts
+- Multi-platform: PumpSwap, PumpFun, Raydium LaunchLab, bonk.fun
+- Copy trading & sniper functionality with customizable strategies
 
-## 🧱 Stack
+#### 🦀 Rust (`sniper (Rust) using jito Shred stream/`)
+- Ultra-high performance with JITO shred stream
+- Advanced MEV strategies for maximal extractable value
+- Real-time transaction parsing & analytics
+- PostgreSQL integration for trade logging
 
-### Core Framework
+**Both versions offer:**
+- Copy Trading: Replicate successful trades from other wallets
+- Sniper Trading: Lightning-fast trades on new launches
+- MEV Bot: Capture maximal extractable value on Solana
+- Customizable Sell Logic: Implement your own profit-taking strategies
+- Multi-Platform Support: PumpSwap, PumpFun, Raydium LaunchLab, bonk, and more
 
-- [Next.js](https://nextjs.org/) - App Router, React Server Components
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Vercel AI SDK](https://sdk.vercel.ai/docs) - Text streaming / Generative UI
+---
 
-### Authentication & Authorization (Updated Category)
+## 📲 Telegram: [@hanshaze007](https://t.me/hanshaze007)
 
-- [Supabase](https://supabase.com/) - User authentication and backend services
+---
 
-### AI & Search
+## 🎯 Key Features
 
-- [OpenAI](https://openai.com/) - Default AI provider (Optional: Google AI, Anthropic, Groq, Ollama, Azure OpenAI, DeepSeek, Fireworks)
-- [Tavily AI](https://tavily.com/) - Default search provider
-- Alternative providers:
-  - [SearXNG](https://docs.searxng.org/) - Self-hosted search
-  - [Exa](https://exa.ai/) - Neural search
+### ⚡ Ultra-Fast Execution
+- Off-chain signing for max speed
+- Multiple swap methods: solana, jito, nozomi, 0slot, race
+- Priority fee optimization
+- Retry logic with exponential backoff
 
-### Data Storage
+### 🎛️ Flexible Trading Strategies
+- Copy Trading: Follow top traders automatically
+- Sniper Trading: Target new launches with precision
+- Custom Sell Logic: Your own profit-taking rules
+- Multi-token support
 
-- [Upstash](https://upstash.com/) - Serverless Redis
-- [Redis](https://redis.io/) - Local Redis option
+### 📱 Remote Control & Monitoring
+- Telegram Bot: Control from anywhere (Node.js)
+- Real-time alerts: Buy/sell notifications with PnL
+- Balance monitoring & status dashboard
 
-### UI & Styling
+### 🔧 Advanced Features
+- Transaction parsing & analytics
+- Multi-platform support
+- Robust error handling & alerting
+- Configurable strategy parameters
 
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [shadcn/ui](https://ui.shadcn.com/) - Re-usable components
-- [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible components
-- [Lucide Icons](https://lucide.dev/) - Beautiful & consistent icons
+---
 
-## 🚀 Quickstart
+## 🚀 Quick Start
 
-### 1. Fork and Clone repo
+### Prerequisites
+- Node.js 18+ (for Node.js version)
+- Rust 1.70+ (for Rust version)
+- Solana wallet with SOL
+- Telegram bot token (optional, Node.js)
 
-Fork the repo to your Github account, then run the following command to clone the repo:
+---
 
-```bash
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
+### Node.js Setup
+
+1. **Go to Node.js directory**
+    ```bash
+    cd "copy sniper bot(node) using gRPC"
+    ```
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
+3. **Configure environment**
+    ```bash
+    cp .env.example .env
+    ```
+    Edit `.env`:
+    ```env
+    RPC_URL=https://api.mainnet-beta.solana.com
+    PRIVATE_KEY=your_private_key_here
+    WALLET=your_wallet_address
+    SWAP_METHOD=solana
+    SLIPPAGE_BPS=50
+    MAX_RETRIES=3
+    RETRY_DELAY=1000
+    TELEGRAM_BOT_TOKEN=your_bot_token
+    TELEGRAM_CHAT_ID=your_chat_id
+    LIMIT_BALANCE=0.1
+    ```
+4. **Start the bot**
+    ```bash
+    npm start
+    ```
+
+#### Node.js Features
+- gRPC transaction monitoring
+- Telegram integration
+- Multi-platform support
+- Copy & sniper trading
+- Custom alerts with PnL
+
+---
+
+### Rust Setup
+
+1. **Go to Rust directory**
+    ```bash
+    cd "sniper (Rust) using jito Shred stream"
+    ```
+2. **Build**
+    ```bash
+    cargo build --release
+    ```
+3. **Set up PostgreSQL** (for trade logging)
+    ```bash
+    # Install PostgreSQL and create database
+    # Update DB_URL in main.rs if needed
+    ```
+4. **Configure environment**
+    ```env
+    RPC_URL=https://api.mainnet-beta.solana.com
+    PRIVATE_KEY=your_private_key_here
+    WALLET=your_wallet_address
+    ```
+5. **Start the bot**
+    ```bash
+    cargo run --release
+    ```
+
+#### Rust Features
+- JITO shred stream processing
+- Advanced MEV strategies
+- Real-time transaction parsing
+- PostgreSQL analytics
+- Multi-threaded for HFT
+- Robust error handling
+
+---
+
+## 📊 Feature Comparison
+
+| Feature                | Node.js      | Rust         |
+|------------------------|--------------|--------------|
+| Performance            | Fast         | Ultra-fast   |
+| Memory Usage           | Higher       | Lower        |
+| Setup Complexity       | Easy         | Moderate     |
+| Telegram Integration   | ✅           | ❌           |
+| MEV Strategies         | Basic        | Advanced     |
+| Database Integration   | ❌           | ✅ PostgreSQL |
+| Transaction Parsing    | Basic        | Advanced     |
+| Multi-threading        | Limited      | Full         |
+
+---
+
+## 🛠️ Configuration
+
+### Swap Methods (Node.js)
+
+| Method   | Speed      | Cost   | Use Case             |
+|----------|------------|--------|----------------------|
+| solana   | Fast       | Low    | General trading      |
+| jito     | Very Fast  | Medium | High-priority trades |
+| nozomi   | Ultra Fast | High   | Sniper trading       |
+| 0slot    | Fast       | Low    | Copy trading         |
+| race     | Very Fast  | Medium | Competitive trading  |
+
+### Alert Settings (Node.js)
+Customize your Telegram notifications:
+
+```javascript
+const alertSettings = {
+  buyAlerts: true,           // Buy notifications
+  sellAlerts: true,          // Sell notifications
+  insufficientFundsAlerts: true,  // Low balance warnings
+  balanceAlerts: true,       // Balance updates
+  errorAlerts: true          // Error notifications
+};
 ```
 
-### 2. Install dependencies
+## 📈 Trading Strategies
 
-```bash
-cd morphic
-bun install
+### Copy Trading Strategy
+1. **Identify Successful Wallets**: Find wallets with consistent profits
+2. **Set Copy Parameters**: Define amount scaling and timing
+3. **Monitor Transactions**: Track target wallet activity
+4. **Execute Copies**: Automatically replicate trades
+
+### Sniper Trading Strategy
+1. **Token Launch Detection**: Monitor new token launches
+2. **Entry Timing**: Execute trades at optimal moments
+3. **Position Sizing**: Calculate appropriate position sizes
+4. **Exit Strategy**: Implement custom sell logic
+
+### Custom Sell Logic Examples
+
+#### Conservative Strategy
+```javascript
+{
+  stopLoss: 0.05,        // 5% stop loss
+  takeProfit: 0.15,      // 15% take profit
+  maxHoldTime: 1800      // 30 minutes max hold
+}
 ```
 
-### 3. Configure environment variables
-
-```bash
-cp .env.local.example .env.local
+#### Aggressive Strategy
+```javascript
+{
+  stopLoss: 0.10,        // 10% stop loss
+  takeProfit: 0.50,      // 50% take profit
+  trailingStop: 0.20,    // 20% trailing stop
+  maxHoldTime: 3600      // 1 hour max hold
+}
 ```
 
-Fill in the required environment variables in `.env.local`:
+## 🔧 Advanced Configuration
 
-```bash
-# Required for Core Functionality
-OPENAI_API_KEY=     # Get from https://platform.openai.com/api-keys
-TAVILY_API_KEY=     # Get from https://app.tavily.com/home
+### Multi-Platform Support
+Both bots support multiple Solana trading platforms:
+
+- **PumpSwap**: High-speed DEX trading
+- **PumpFun**: Meme token trading
+- **Raydium LaunchLab /bonk.fun**: Launchpad trading
+- **Raydium**: General DEX trading
+
+### Transaction Parsing
+Advanced transaction analysis for detailed trade insights:
+
+```javascript
+const parsedData = {
+  solChanges: 0.1,           // SOL amount traded
+  tokenChanges: 1000000,     // Token amount traded
+  isBuy: true,               // Buy or sell transaction
+  user: "wallet_address",    // Trader wallet
+  mint: "token_mint",        // Token mint address
+  pool: "pool_address",      // Trading pool
+  liquidity: 1000,           // Pool liquidity
+  coinCreator: "creator"     // Token creator
+};
 ```
 
-For optional features configuration (Redis, SearXNG, etc.), see [CONFIGURATION.md](./docs/CONFIGURATION.md)
+## 📱 Telegram Bot Setup (Node.js Only)
 
-### 4. Run app locally
+### Quick Setup
+1. Create a Telegram bot with [@BotFather](https://t.me/botfather)
+2. Add your bot token to `.env`
+3. Start the bot and send `/start`
 
-#### Using Bun
+### Available Commands
+- `/start` - Main control panel
+- `/status` - Bot status and balance
+- `/balance` - Check wallet balance
+- `/alerts` - Manage notifications
+- `/stats` - Trading statistics
+- `/help` - Show all commands
 
-```bash
-bun dev
-```
+### Interactive Features
+- **One-click Start/Stop**: Control bot with buttons
+- **Real-time Balance**: Live wallet balance updates
+- **Alert Management**: Toggle notification types
+- **Status Monitoring**: Live trading statistics
 
-#### Using Docker
+## 🚨 Safety Features
 
-```bash
-docker compose up -d
-```
+### Balance Protection
+- **Minimum Balance Check**: Prevents trading with insufficient funds
+- **Automatic Stop**: Stops bot when balance is too low
+- **Balance Alerts**: Notifications for balance changes
 
-Visit http://localhost:3000 in your browser.
+### Error Handling
+- **Retry Logic**: Automatic retry on failed transactions
+- **Error Alerts**: Immediate notification of issues
+- **Graceful Degradation**: Continues operation despite errors
 
-## 🌐 Deploy
+### Security
+- **Private Key Protection**: Secure key management
+- **Environment Variables**: Sensitive data protection
+- **Transaction Validation**: Verify all transactions before execution
 
-Host your own live version of Morphic with Vercel, Cloudflare Pages, or Docker.
+## 📊 Performance Monitoring
 
-### Vercel
+### Real-time Metrics
+- **Trade Success Rate**: Percentage of successful trades
+- **Average PnL**: Mean profit/loss per trade
+- **Total Volume**: Total trading volume
+- **Active Positions**: Current open positions
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FinsionCEO%2Fmorphic&env=OPENAI_API_KEY,TAVILY_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN)
+### Alert System (Node.js)
+- **Buy Alerts**: New position notifications
+- **Sell Alerts**: Exit notifications with PnL
+- **Error Alerts**: Issue notifications
+- **Balance Alerts**: Fund level warnings
 
-### Docker Prebuilt Image
+## 🔄 Updates & Maintenance
 
-Prebuilt Docker images are available on GitHub Container Registry:
+### Regular Updates
+- **Performance Optimizations**: Faster execution
+- **New Features**: Additional trading strategies
+- **Bug Fixes**: Improved stability
+- **Security Updates**: Enhanced protection
 
-```bash
-docker pull ghcr.io/insionCEO/morphic:latest
-```
+### Support
+- **Documentation**: Comprehensive guides
+- **Community**: Active user community
+- **Custom Development**: Tailored solutions
+- **Ultra-fast Swap Code**: Off-chain signing implementation
 
-You can use it with docker-compose:
+## 💡 Pro Tips
 
-```yaml
-services:
-  morphic:
-    image: ghcr.io/insionCEO/morphic:latest
-    env_file: .env.local
-    ports:
-      - '3000:3000'
-    volumes:
-      - ./models.json:/app/public/config/models.json # Optional: Override default model configuration
-```
+### Choosing Between Implementations
+- **Use Node.js version** if you want:
+  - Easy setup and configuration
+  - Telegram integration for remote control
+  - Quick deployment and testing
+  - Basic copy trading and sniper functionality
 
-The default model configuration is located at `public/config/models.json`. For Docker deployment, you can create `models.json` alongside `.env.local` to override the default configuration.
+- **Use Rust version** if you want:
+  - Maximum performance and speed
+  - Advanced MEV strategies
+  - Sophisticated transaction analysis
+  - Professional-grade trading infrastructure
 
-## 🔎 Search Engine
+### Maximizing Profits
+1. **Start Small**: Begin with small amounts to test strategies
+2. **Monitor Performance**: Track your bot's performance regularly
+3. **Adjust Parameters**: Fine-tune settings based on results
+4. **Diversify Strategies**: Use multiple trading approaches
 
-### Setting up the Search Engine in Your Browser
+### Risk Management
+1. **Set Stop Losses**: Always use stop losses to limit losses
+2. **Position Sizing**: Don't risk more than you can afford to lose
+3. **Monitor Markets**: Stay informed about market conditions
+4. **Regular Reviews**: Periodically review and adjust strategies
 
-If you want to use Morphic as a search engine in your browser, follow these steps:
+## 🤝 Support & Contact
 
-1. Open your browser settings.
-2. Navigate to the search engine settings section.
-3. Select "Manage search engines and site search".
-4. Under "Site search", click on "Add".
-5. Fill in the fields as follows:
-   - **Search engine**: Morphic
-   - **Shortcut**: morphic
-   - **URL with %s in place of query**: `https://morphic.sh/search?q=%s`
-6. Click "Add" to save the new search engine.
-7. Find "Morphic" in the list of site search, click on the three dots next to it, and select "Make default".
+### Get Professional Support
+For ultra-fast swap code using off-chain signing and custom sell logic optimization:
 
-This will allow you to use Morphic as your default search engine in the browser.
+- **Custom Development**: Tailored solutions for your needs
+- **Sell Logic Optimization**: Maximize your profit potential
+- **Ultra-fast Implementation**: Off-chain signing for speed
+- **24/7 Support**: Round-the-clock assistance
 
-## 💙 Sponsors
+### Contact Information
+- **Telegram**: [@hanshaze007](https://t.me/hanshaze007)
 
-This project is proudly supported by:
-
-<a href="https://vercel.com/oss">
-  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
-</a>
-
-## 👥 Contributing
-
-We welcome contributions to Morphic! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
-
-Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
-
-- How to submit issues
-- How to submit pull requests
-- Commit message conventions
-- Development setup
 
 ## 📄 License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Telegram**: [@insionCEO](https://t.me/insionCEO)
+## ⚠️ Disclaimer
 
+**Trading cryptocurrencies involves substantial risk of loss and is not suitable for every investor. The valuation of cryptocurrencies may fluctuate, and, as a result, you may lose more than your original investment. You should not invest money that you cannot afford to lose.**
+
+This bot is NOT for educational and research purposes. Use at your own risk. The developers are not responsible for any financial losses incurred through the use of this software without contact to me.
+
+---
+
+**🚀 Start your journey to profitable trading today!**
+
+*Built with ❤️ for the Solana community and Traders*
