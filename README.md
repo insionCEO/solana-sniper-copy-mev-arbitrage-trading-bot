@@ -42,10 +42,6 @@ This repository provides two high-performance implementations of Solana trading 
 - Same-block execution capabilities
 - 99.8% transaction success rate
 - Support for JITO bundles and priority fees
-
-**Real-World Results:**
-Check our [medium article](https://medium.com/@odinbotio/the-50-trade-challenge-how-odinbot-outpaced-every-competitor-0ca864b50215) for detailed performance metrics and comparison against competitors.
-
 ---
 
 ## 🚀 Features
@@ -111,7 +107,7 @@ The bot has demonstrated same-block execution capabilities:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/solana-trading-bot.git
+git clone https://github.com/insionCEO/solana-trading-bot.git
 cd "copy sniper bot(node) using gRPC"
 
 # Install dependencies
