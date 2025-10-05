@@ -1,4 +1,5 @@
 # 🚀 Ultimate Solana Copy Sniper & MEV Trading Bot (Node.js & Rust)
+**Telegram**: [@insionCEO](https://t.me/insionCEO)
 
 > **High-performance Solana trading automation with copy trading, sniper functionality, and MEV strategies for maximum profitability**
 
